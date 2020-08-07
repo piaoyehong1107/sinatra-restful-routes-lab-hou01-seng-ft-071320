@@ -1,0 +1,7 @@
+<h1> Recipes_index </h1>
+<% @recipes.each do |x| %>
+   Name: <%= x.name %>
+   Ingredients: <%= x.ingredients %>
+   Cook Time: <%= x.cook_time %>
+<% end %>
+<%= params %>
